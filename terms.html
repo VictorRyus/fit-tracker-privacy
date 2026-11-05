@@ -404,7 +404,8 @@
     </div>
     <ol class="clause">
       <li>AI 기능을 실행하면 이용자가 선택한 사진, 입력 정보, Health Connect 데이터의 일부가 분석을 위해 Google Gemini API로 전송될 수 있습니다.</li>
-      <li>이용자가 본인의 Gemini API 키를 등록하면 해당 키로 AI 기능이 실행될 수 있습니다. 키의 발급과 관리, 사용량, 요금, 한도는 이용자와 Google 사이의 약관을 따르며, 운영자는 그 요금을 부담하지 않습니다.</li>
+      <li><strong>앱의 AI 기능을 이용하려면 이용자 본인의 Gemini API 키를 등록해야 합니다. 구독을 해도 API 키가 제공되지 않습니다.</strong> AI 기능은 등록한 키로 실행됩니다.</li>
+      <li>키의 발급과 관리, 사용량, 요금, 한도는 이용자와 Google 사이의 약관을 따르며, 운영자는 그 요금을 부담하지 않습니다.</li>
       <li>본인이 발급받은 키만 등록해야 하며, 키가 유출되었다고 의심되면 Google에서 즉시 폐기하고 앱의 키를 변경해 주세요. API 키의 저장 방식은 <a href="./">개인정보처리방침</a>을 따릅니다.</li>
     </ol>
   </div>
@@ -414,13 +415,15 @@
       <h2 class="section-heading">제6조 이용 방식과 광고</h2>
     </div>
     <div class="table-wrap"><table>
-      <thead><tr><th>이용 방식</th><th>내용</th></tr></thead>
+      <thead><tr><th>Premium 구독</th><th>본인 Gemini API 키</th><th>AI 코칭</th></tr></thead>
       <tbody>
-        <tr><td>무료 이용</td><td>기록과 통계 등 기본 기능. AI 코칭은 앱에 안내된 범위 내에서 이용(현재 안내: 하루 3회)</td></tr>
-        <tr><td>본인 Gemini API 키 등록</td><td>월 구독료 없이 사진 분석, AI 코치 등 앱에 안내된 AI 기능 이용</td></tr>
-        <tr><td>FitTracker Premium 구독</td><td>무제한 AI 헬스 코칭</td></tr>
+        <tr><td>구독</td><td>등록</td><td>무제한</td></tr>
+        <tr><td>미구독</td><td>등록</td><td>하루 3회</td></tr>
+        <tr><td>구독</td><td>미등록</td><td>이용 불가(키 등록 필요)</td></tr>
+        <tr><td>미구독</td><td>미등록</td><td>이용 불가</td></tr>
       </tbody>
     </table></div>
+    <p>기록과 통계 등 기본 기능은 구독과 API 키 없이 이용할 수 있습니다. 음식 사진 분석, 러닝 스크린샷 인식 등 다른 AI 기능에도 본인 API 키 등록이 필요합니다.</p>
     <p>이용 조건은 서비스 운영에 따라 변경될 수 있으며, 앱에 표시된 내용이 최신 기준입니다. 유료 구독 기간 중 구독 혜택을 이용자에게 불리하게 바꾸는 경우 제13조의 절차를 따릅니다.</p>
     <p>앱에는 광고가 표시됩니다. <strong>구독은 광고 제거 상품이 아니며, 구독 중에도 배너 광고가 표시될 수 있습니다.</strong></p>
   </div>
@@ -433,11 +436,11 @@
       <thead><tr><th>상품</th><th>대한민국 기준 가격</th><th>결제 주기</th></tr></thead>
       <tbody>
         <tr><td>FitTracker Premium 월간</td><td>2,900원</td><td>매월 자동 갱신</td></tr>
-        <tr><td>FitTracker Premium 연간</td><td>19,900원</td><td>매년 자동 갱신</td></tr>
+        <tr><td>FitTracker Premium 연간</td><td colspan="2">구매 전 Google Play 결제 화면에 표시되는 가격과 결제 주기를 따릅니다.</td></tr>
       </tbody>
     </table></div>
     <ol class="clause">
-      <li>결제는 Google Play를 통해 이루어지며, 실제 청구 금액은 국가·통화·세금에 따라 달라질 수 있습니다. 구매 전 Google Play 결제 화면에 표시되는 금액이 우선합니다.</li>
+      <li>결제는 Google Play를 통해 이루어지며, 실제 청구 금액은 국가·통화·세금에 따라 달라질 수 있습니다. 구매 전 Google Play 결제 화면에 표시되는 금액과 결제 주기가 우선합니다.</li>
       <li>구독은 해지하지 않으면 각 결제 주기가 끝날 때 등록된 결제 수단으로 자동 갱신·청구됩니다.</li>
       <li>구독 가격을 인상할 때에는 관계 법령과 Google Play 정책에 따라 사전에 안내합니다.</li>
       <li>구독 해지는 Google Play의 <a href="https://play.google.com/store/account/subscriptions" rel="noopener">구독 관리</a>에서 할 수 있습니다. 해지해도 이미 결제한 기간이 끝날 때까지 혜택을 이용할 수 있습니다.</li>
@@ -576,7 +579,8 @@
     </div>
     <ol class="clause">
       <li>When you run an AI feature, photos you select, information you enter, and part of your Health Connect data may be sent to the Google Gemini API for analysis.</li>
-      <li>If you register your own Gemini API key, AI features may run using that key. Issuing and managing the key, and its usage, charges, and limits, are governed by the terms between you and Google. We do not pay those charges.</li>
+      <li><strong>To use the App's AI features, you must register your own Gemini API key. A subscription does not include an API key.</strong> AI features run using the key you register.</li>
+      <li>Issuing and managing the key, and its usage, charges, and limits, are governed by the terms between you and Google. We do not pay those charges.</li>
       <li>Register only a key issued to you. If you suspect a key has leaked, revoke it at Google immediately and change the key in the App. How the key is stored is described in our <a href="./">Privacy Policy</a>.</li>
     </ol>
   </div>
@@ -586,13 +590,15 @@
       <h2 class="section-heading">6. Ways to Use the App and Advertising</h2>
     </div>
     <div class="table-wrap"><table>
-      <thead><tr><th>Option</th><th>Details</th></tr></thead>
+      <thead><tr><th>Premium subscription</th><th>Your Gemini API key</th><th>AI coaching</th></tr></thead>
       <tbody>
-        <tr><td>Free use</td><td>Basic features such as records and statistics. AI coaching within the scope stated in the App (currently stated as 3 times per day)</td></tr>
-        <tr><td>Your own Gemini API key</td><td>AI features stated in the App, such as photo analysis and AI coaching, without a monthly subscription fee</td></tr>
-        <tr><td>FitTracker Premium subscription</td><td>Unlimited AI health coaching</td></tr>
+        <tr><td>Subscribed</td><td>Registered</td><td>Unlimited</td></tr>
+        <tr><td>Not subscribed</td><td>Registered</td><td>3 times per day</td></tr>
+        <tr><td>Subscribed</td><td>Not registered</td><td>Unavailable (key required)</td></tr>
+        <tr><td>Not subscribed</td><td>Not registered</td><td>Unavailable</td></tr>
       </tbody>
     </table></div>
+    <p>Basic features such as records and statistics are available without a subscription or API key. Other AI features, such as food photo analysis and running screenshot recognition, also require your own API key.</p>
     <p>Terms of use may change as the service evolves; the App shows the current terms. Any change to subscription benefits that is unfavorable to you during a paid period follows Section 13.</p>
     <p>The App displays advertising. <strong>A subscription does not remove ads, and banner ads may appear while you are subscribed.</strong></p>
   </div>
@@ -605,11 +611,11 @@
       <thead><tr><th>Plan</th><th>Price in Korea</th><th>Billing</th></tr></thead>
       <tbody>
         <tr><td>FitTracker Premium Monthly</td><td>KRW 2,900</td><td>Renews automatically every month</td></tr>
-        <tr><td>FitTracker Premium Annual</td><td>KRW 19,900</td><td>Renews automatically every year</td></tr>
+        <tr><td>FitTracker Premium Annual</td><td colspan="2">The price and billing period shown on the Google Play checkout screen before purchase apply.</td></tr>
       </tbody>
     </table></div>
     <ol class="clause">
-      <li>Payments are processed by Google Play. The amount charged may vary by country, currency, and tax. The amount shown on the Google Play checkout screen before purchase prevails.</li>
+      <li>Payments are processed by Google Play. The amount charged may vary by country, currency, and tax. The amount and billing period shown on the Google Play checkout screen before purchase prevail.</li>
       <li>Unless cancelled, your subscription renews automatically and is charged to your registered payment method at the end of each billing period.</li>
       <li>We will give advance notice of any price increase as required by applicable law and Google Play policy.</li>
       <li>You can cancel in Google Play <a href="https://play.google.com/store/account/subscriptions" rel="noopener">subscription management</a>. After cancelling, you keep your benefits until the end of the period you have paid for.</li>
